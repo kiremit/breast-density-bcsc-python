@@ -1,0 +1,22 @@
+# Data (raw and processed) and environment
+data/
+.venv/
+
+# Python / Jupyter
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# IDE / OS
+.idea/
+.DS_Store
+
+# Secrets
+.env
+.env.*
+*.key
+*.pem
+
+# Large raw data
+*.parquet
+*.zip
